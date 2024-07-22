@@ -1,16 +1,5 @@
 {
-	"name": "Node.js",
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
-	"features": {
-		"ghcr.io/devcontainers/features/node:1": {
-			"nodeGypDependencies": true,
-			"installYarnUsingApt": true,
-			"version": "latest",
-			"nvmVersion": "latest"
-		}
-	},
-  "postCreateCommand": "npm install",
-
-  "customizations": {
-  }
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "postCreateCommand": "npm install"
 }
